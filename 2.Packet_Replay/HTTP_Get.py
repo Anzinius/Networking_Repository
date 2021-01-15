@@ -8,9 +8,11 @@ conn = httplib.HTTPConnection("github.com/anzinius")
 #conn.request("GET", "/ip")
 conn.request("GET", "/get")
 response = conn.getresponse()
-data = response.read()
+data1 = response.read()
+data2 = response.read().decode(“utf-8”)
 print response.status
 print response.reason
-print data
+print data1
+print data2
 
 conn.close()
