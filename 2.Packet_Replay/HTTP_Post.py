@@ -2,6 +2,8 @@ import httplib
 import urllib
 
 conn = httplib.HTTPConnection("github.com/anzinius")
+#conn = httplib.HTTPConnection("github.com/anzinius", 80)
+#conn = httplib.HTTPConnection("github.com/anzinius:80")
 
 params = "test data"
 headers = {"Connection" : "Keep-Alive",
