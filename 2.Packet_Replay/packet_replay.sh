@@ -15,7 +15,7 @@ do
     case $method in
         1)  echo ""
             echo "===================GET REPLAY==================="
-            exit
+            break #break
             ;;
         2)  echo ""
             echo "===================POST REPLAY=================="
@@ -28,10 +28,24 @@ do
     esac
 done
 
-echo "Destination IP : "
-read method
+
+function GET() {
+    printf "Destination IP : "
+    read dip
+
+}
+
+function POST() {
+    printf "Destination IP : "
+    read dip
+}
 
 
+# if [$method = 1]; then
+#     echo ""
+#     echo "===================GET REPLAY2==================="
+#     GET()
+# fi
 
 
 function print() {
