@@ -13,8 +13,8 @@ headers = {"Connection" : "Keep-Alive",
 conn.request("POST", "/post", params, headers)
 response = conn.getresponse()
 data = response.read()
-print response.status
-print response.reason
-print data
+print(response.status)
+print(response.reason)
+print(data)
 
 conn.close()
