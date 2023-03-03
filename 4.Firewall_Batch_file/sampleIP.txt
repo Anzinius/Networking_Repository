@@ -1,0 +1,8 @@
+US, United States|18.211.231.38
+DE, Germany|116.202.116.61
+DE, Germany|85.214.121.138
+FR, France|51.89.115.111
+PA, panama|190.14.37.173
+US, United States|18,212.231.38
+DE, Germany|116.202.61
+FR, France|51.89.115.256
